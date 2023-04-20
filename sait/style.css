@@ -1,0 +1,1356 @@
+ /* -------------------------header-------------------------- */
+
+ ::-webkit-scrollbar {
+    display: none;
+  }
+
+body{
+    margin: 0;
+    font-family: 'Futura New';
+}
+
+.logo-line{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+} 
+
+.logo-a{
+    color: #3A3A3A;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.2s linear;
+}
+
+.logo-a:hover{
+  color: #4a9e29;
+}
+.logo-a-logo{
+    color: #393939;
+    text-decoration: none;
+    font-size: 35px;
+    transition: color 0.2s linear;
+}
+
+.logo-button{
+    background-color: #3F6745;
+    color: white;
+    font-size: 16px;
+    width: 172px;
+    height: 45px;
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+    border: 0;
+    box-shadow: 0 5px 15px #3f67458c;
+    border-radius: 3px
+}
+
+.logo-button:hover{
+    background-color: #24ac38;
+    box-shadow: 0 5 15px #24ac388a;
+}
+
+/* -------------------------------------------------------------- */
+
+.header{
+    background: #F5F4F0;
+    height: 100vh;
+}
+
+.conteiner{
+    margin: 0 300px;
+}
+
+.img-logo{
+    width: 621px;
+    height: 593px;
+    position: absolute;
+    left: 771px;
+    top: 120px;
+}
+
+.header-coment{
+    margin: 70px 0 0;
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+}
+
+.header-sait{
+    margin: 0 0 20px;
+    font-weight: 600;
+    font-size: 65px;
+    color: #2B2B2B;
+    position: relative;
+    line-height: 1em;
+    z-index: 1;
+    display: inline;
+}
+
+.order{
+    transition: background-color 0.2s linear;
+    box-shadow: 0 5px 15px #3f67458c;
+    color: white;
+    background: #3F6745;
+    width: 160px;
+    height: 50px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 3px;
+    position: relative;
+    right: 310px;
+    bottom: -62px;
+    font-family: 'Futura New';
+}
+
+.box-logo{
+    bottom: 30px;
+    right: 0px;
+    position: absolute;
+    background-color: #E9E6DC;
+    width: 615px;
+    height: 77px;
+    z-index: -1;
+}
+
+.order:hover{
+    background-color: #24ac38;
+    box-shadow: 0 5px 15px #24ac388a;
+}
+
+.additional-box-up{
+    position: relative;
+    left: 40px;
+    margin: 120px 0 0;
+    background: #fff;
+    width: 350px;
+    height: 70px;
+    display: flex;
+    align-items: center; 
+    box-shadow: 0 4px 8px rgb(230, 230, 215);
+}
+
+.additional-box-down{
+    position: relative;
+    left: 80px;
+    margin: 35px;
+    background: #fff;
+    width: 350px;
+    height: 70px;
+    display: flex;
+    align-items: center; 
+    box-shadow: 0 5px 10px rgb(230, 230, 215);
+}
+
+.rhomb{
+    background-image: url(media/rhomb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 27px;
+    left: 343px;
+    width: 15px;
+    height: 15px;
+    
+}
+
+.box-additional{
+    display: flex;
+    align-items: center; 
+    height: 50px;
+    width: 50px;
+    background: #2B2B2B;
+    border-radius: 3px;
+    justify-content: center;
+}
+
+.additional-img{
+    margin: 0 9px 0;
+    z-index: 1;
+}
+
+.additional-txt{
+    color: #444444;
+    font-weight: 600;
+}
+
+.box-shadow-additional{
+    position: absolute;
+    right: 276px;
+    top: -6px;
+    width: 80px;
+    height: 90px;
+    z-index: 0;
+}
+
+/* --------------------------statistics----------------------------- */
+
+.statistics{
+    background: #2B2B2B;
+    width: 100%;
+    height: 200px;
+    color: white;
+    text-align: center; 
+    align-items: center;
+    justify-content: center;
+    line-height: 10px;
+}
+
+.sales{
+    display: inline-block;
+    width: 300px;
+    position: relative;
+    bottom: 25px;
+}
+
+.satisfied-customers{
+    display: inline-block;
+    width: 300px;
+    position: relative;
+    bottom: 25px;
+}
+
+.tires{
+    display: inline-block;
+    width: 300px;
+    position: relative;
+    bottom: 25px;
+}
+
+.number-statistics{
+    font-weight: 600;
+    font-size: 80px;
+    margin: -58px 0 0;
+}
+
+.txt-statistics{
+    font-weight: 300;
+    font-size: 17px;
+    margin: 45px 0 0
+}
+
+.green-statistics{
+    position: relative;
+    left: 57px;
+    top: 7px;
+    width: 188px;
+    height: 2px;
+    background: #3F6745;
+}
+
+.green-statistics-3{
+    position: relative;
+    left: 62px;
+    top: 7px;
+    width: 178px;
+    height: 2px;
+    background: #3F6745;
+}
+
+.palka-left{
+    position: relative;
+    top: 87px;
+    background-color: #212121;
+    width: 600px;
+    height: 74px;
+}
+
+.palka-right{
+    position: relative;
+    bottom: 50px;
+    left: 1069px;
+    background-color: #212121;
+    width: 450px;
+    height: 80px;
+}
+
+/* ---------------------------------advantages-product---------------------------------- */
+
+.advantages-product{
+    padding: 95px 0 0;
+    background: #F5F4F0;
+    z-index: -2;
+}
+
+.header-advantages-product{
+    font-size: 65px;
+    color: #2B2B2B;
+    font-weight: 600;
+    line-height: 1em;
+    margin: 0;
+    position: relative;
+    left: 300px;
+    bottom: 25px;
+}
+
+.palka-advantages-product{
+    background-color: #E9E6DC;
+    width: 807px;
+    height: 80px;
+    position: relative;
+    right: 300px;
+    top: 1px;
+    margin: 0px 0 105px;
+}
+.img-advantages-product-up{
+    background-image: url(media/auto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    width: 930px;
+    height: 430px;
+    margin: 0 0 80px; 
+    position: absolute;
+    right: 290px;
+    top: 40px;
+}
+
+.note-auto{
+    background: rgba(245, 245, 245, 0.88);
+    backdrop-filter: blur(5px);
+    border-radius: 3px;
+    width: 480px;
+    height: 290px;
+    position: relative;
+    top: 100px;
+    left: 340px;
+    padding: 40px;
+    line-height: 18px;
+}
+
+.note-auto-header{
+    color: #2B2B2B;
+    font-weight: 500;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 10px 0px 15px 0;
+}
+
+.note-auto-description{
+    margin: 0px 0px 0px 17px;
+    font-size: 20px;
+    line-height: 22px;
+    color: #444444;
+    font-weight: 700;
+}
+
+.wheel-replacement-auto{
+    color: #444444;
+    font-size: 15px;
+}
+
+.txt-wheel-replacement-auto-1{
+    margin: 0px 0px 0px 25px;
+}
+
+.txt-wheel-replacement-auto-2{
+    margin: 0px 0px 0px 25px;
+}
+
+.txt-wheel-replacement-auto-3{
+    margin: 0px 0px 0px 25px;
+}
+
+.box-img-arrow-1{
+    background: #2B2B2B;
+    width: 14px;
+    height: 14px;
+    position: relative;
+    top: 16px;
+    left: 3px;
+    border-radius: 2px;
+}
+
+.box-img-arrow-2{
+    background: #2B2B2B;
+    width: 14px;
+    height: 14px;
+    position: relative;
+    top: 14px;
+    left: 3px;
+    border-radius: 2px;
+}
+
+.box-img-arrow-3{
+    background:#2B2B2B;
+    width: 14px;
+    height: 14px;
+    position: relative;
+    top: 15px;
+    left: 3px;
+    border-radius: 2px;
+}
+
+.img-arrow{
+    background-image: url(media/strelka.png);
+    background-repeat: no-repeat;
+    position: relative;
+    top: 3px;
+    left: 5px;
+    width: 7px;
+    height: 7px;
+}
+
+.line-h-puncture-tire-auto{
+    top: 91px;
+    height: 35px;
+    width: 1.5px;
+    background-color:#3F6745;
+    position: absolute;
+}
+
+.Shadow-img-advantages-product-up{
+    background: #E9E6DC;
+    width: 650px;
+    height: 430px;
+    float: right;
+    position: relative;
+    bottom: 40px;
+}
+
+/* ------ */
+
+.shadow-img-advantages-product-down{
+    background-color:#E9E6DC;
+    width: 640px;
+    height: 430px;
+    position: relative;
+    float: left;
+    border-radius: 3px;
+    top: 470px;
+}
+
+.img-advantages-product-down{
+    background-image: url(media/farm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    width: 930px;
+    height: 430px;
+    position: relative;
+    left: 298px;
+    top: 40px;
+}
+
+.note-farm{
+    background: rgba(245, 245, 245, 0.9);
+     backdrop-filter: blur(5px);
+    border-radius: 3px;
+    width: 480px;
+    height: 180px;
+    position: relative;
+    top: 212px;
+    left: 30px;
+    padding: 40px;
+    line-height: 21px;
+}
+
+.note-farm-description{
+    margin: 0px 0px 0px 22px;
+    position: relative;
+    font-weight: 700;
+    color: #444444;
+    font-size: 20px;
+}
+
+.box-img-arrow-4{
+    background:#2B2B2B;
+    width: 14px;
+    height: 14px;
+    position: relative;
+    top: 15px;
+    left: 7px;
+    border-radius: 2px;
+}
+
+.box-img-arrow-5{
+    background:#2B2B2B;
+    width: 14px;
+    height: 14px;
+    position: relative;
+    top: 15px;
+    left: 2px;
+    border-radius: 2px;
+}
+
+.wheel-replacement-farm{
+    color: #444444;
+    font-size: 15px;
+}
+
+.txt-wheel-replacement-farm-1{
+    margin: 0px 0px 0px 30px;
+}
+
+.txt-wheel-replacement-farm-2{
+    margin: 0px 0px 0px 25px;
+}
+
+.line-h-puncture-tire-farm{
+    top: 41px;
+    left: 45px;
+    height: 35px;
+    width: 1.5px;
+    background-color:#3F6745;
+    position: absolute;
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+.advantages-product-text-about-tire-pressure{
+    margin: 1130px 0px 0px;
+    padding: 0 0 321px;
+}
+
+.advantages-product-about-tire-pressure{
+    position: relative;
+    right: 15px;
+}
+
+.header-text-about-tire-pressure{
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0 0 25px;
+}
+
+.shadow-importance-of-proper-tire-pressure{
+    background: #E9E6DC;
+    border-radius: 5px;
+    width: 280px;
+    height: 230px;
+}
+
+.shadow-img-importance-of-proper-tire-pressure{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 280px;
+    height: 230px;
+}
+  
+.shadow-img-importance-of-proper-tire-pressure:before{
+    content: "";
+    position: absolute;
+    width: 280px;
+    height: 230px;
+    background: linear-gradient(to bottom, rgba(95, 95, 95, 0.8), rgba(226, 226, 226, 0));
+    opacity: 0.8;
+    color: rgba(44, 44, 44, 0.6);
+    border-radius: 5px;
+}
+  
+.img-importance-of-proper-tire-pressure{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.importance-of-proper-tire-pressure{
+    width: 255px;
+    height: 220px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.95);
+    position: relative;
+    bottom: 8px;
+    left: 40px;
+    padding: 20px 0px 0px 22px;
+}
+
+.txt-importance-of-proper-tire-pressure-header{
+    color: #444444;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0 0 10px 0;
+}
+
+.txt-importance-of-proper-tire-pressure{
+    color: #444444;
+    font-size: 13px;
+    line-height: 19px;
+    margin: 0;
+    position: relative;
+    left: 5px;
+}
+
+.palka-importance-of-proper-tire-pressure{
+    background-color: #3F6745;
+    width: 1.5px;
+    height: 38px;
+    position: absolute;
+    top: 21px;
+    right: 263px;
+}
+
+
+
+/* -------------- */
+
+
+
+
+.shadow-risks-of-delaying-tire-repairs{
+    background: #E9E6DC;
+    border-radius: 5px;
+    width: 280px;
+    height: 230px;
+}
+
+.shadow-img-risks-of-delaying-tire-repairs{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 280px;
+    height: 230px;
+}
+
+.shadow-img-risks-of-delaying-tire-repairs:before{
+    content: "";
+    position: absolute;
+    width: 280px;
+    height: 230px;
+    background: linear-gradient(to bottom, rgba(95, 95, 95, 0.8), rgba(226, 226, 226, 0));
+    opacity: 0.8;
+    color: rgba(44, 44, 44, 0.6);
+    border-radius: 5px;
+}
+
+.img-risks-of-delaying-tire-repairs{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.risks-of-delaying-tire-repairs{
+    width: 255px;
+    height: 220px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.95);
+    position: relative;
+    bottom: 8px;
+    left: 40px;
+    padding: 20px 0px 0px 22px;
+}
+.txt-risks-of-delaying-tire-repairs-header{
+    color: #444444;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0 0 10px 0;
+}
+.txt-risks-of-delaying-tire-repairs{
+    color: #444444;
+    font-size: 13px;
+    line-height: 19px;
+    margin: 0;
+    position: relative;
+    left: 5px;
+}
+.palka-risks-of-delaying-tire-repairs{
+    background-color: #3F6745;
+    width: 1.5px;
+    height: 38px;
+    position: absolute;
+    top: 21px;
+    right: 263px;
+}
+
+.advantages-product-about-tire-pressure{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    gap: 50px;
+}
+
+/* ---------------- */
+
+.shadow-cost-and-inconvenience-of-field-tire-replacement{
+    background: #E9E6DC;
+    border-radius: 5px;
+    width: 280px;
+    height: 230px;
+}
+
+.shadow-img-cost-and-inconvenience-of-field-tire-replacement{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 280px;
+    height: 230px;
+}
+
+.shadow-img-cost-and-inconvenience-of-field-tire-replacement:before{
+    content: "";
+    position: absolute;
+    width: 280px;
+    height: 230px;
+    background: linear-gradient(to bottom, rgba(95, 95, 95, 0.8), rgba(226, 226, 226, 0));
+    opacity: 0.8;
+    color: rgba(44, 44, 44, 0.6);
+    border-radius: 5px;
+}
+
+.img-cost-and-inconvenience-of-field-tire-replacement{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.cost-and-inconvenience-of-field-tire-replacement{
+    width: 255px;
+    height: 220px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.95);
+    position: relative;
+    bottom: 8px;
+    left: 40px;
+    padding: 20px 0px 0px 22px;
+}
+.txt-cost-and-inconvenience-of-field-tire-replacement-header{
+    color: #444444;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0 0 10px 0;
+}
+.txt-cost-and-inconvenience-of-field-tire-replacement{
+    color: #444444;
+    font-size: 13px;
+    line-height: 19px;
+    margin: 0;
+    position: relative;
+    left: 5px;
+}
+.palka-cost-and-inconvenience-of-field-tire-replacement{
+    background-color: #3F6745;
+    width: 1.5px;
+    height: 38px;
+    position: absolute;
+    top: 21px;
+    right: 263px;
+}
+
+/* --------------------------------------------------------------------------------------- */
+.Questions{
+    background: #2A2A2A;
+    width: 100%;
+    height: 60vh;
+    margin: -31px 0px 0px 0px;
+}
+
+.shadow-header-questions{
+    background: #212121;
+    height: 80px;
+    border-radius: 5px;
+    position: relative;
+    top: 45px;
+    left: -310px;
+    margin: 0 0px 60px 0px;
+}
+
+.header-questions{
+    position: relative;
+    left: 314px;
+    font-size: 44px;
+    top: 14px;
+    color: white;
+    font-weight: 600;
+}
+
+.description-questions{
+    color: white;
+    font-size: 14px;
+    margin: 0 0px 0px 12px;
+    position: relative;
+    bottom: 1px;
+    font-weight: 300;
+}
+
+.description-questions-palka{
+    width: 1.5px;
+    height: 12px;
+    position: absolute;
+    background-color: rgb(0, 109, 0);
+}
+
+.Questions-input{
+    display: flex;
+    width: auto;
+    gap: 20px;
+    position: absolute;
+    margin: 15px 0px 0 0;
+}
+
+.Questions-input-1{
+    background: #2A2A2A;
+    border: 0;
+    outline: none;
+    color: white;
+    width: 290px;
+    font-size: 13px;
+}
+
+.Questions-input-palka{
+    width: auto;
+    gap: 23px;
+    display: flex;
+    top: 24px;
+    right: 3px;
+    position: absolute;
+}
+
+.Questions-input-palka-1{
+    width: 290px;
+    height: 1px;
+    background: #ffffff;
+}
+
+::-webkit-input-placeholder{
+    color: #ffffff;
+}
+
+.Questions-input-2{
+    margin: 75px 0px 0px 0px;
+    background: #2A2A2A;
+    border: 0;
+    outline: none;
+    color: white;
+    width: 100%;
+    height: 16px;
+    font-size: 14px;
+    resize: none;
+    font-family: 'Futura New';
+}
+
+.Questions-input-palka-2{
+    width: 100%;
+    height: 1px;
+    background: #ffffff;
+    position: relative;
+    top: 10px;
+}
+
+.shadow-button-questions{
+    float: right;
+    width: 530px;
+    height: 55px;
+    background-color: #212121;
+    margin: 52px 0px 0px 0px;
+    border-radius: 3px;
+}
+
+.button-questions{
+    transition: background-color 0.2s linear;
+    color: white;
+    background: #3F6745;
+    width: 160px;
+    height: 50px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 3px;
+    position: relative;
+    bottom: 20px;
+    left: 80px;
+}
+
+.button-questions:hover{
+    background-color: #24ac38;
+}
+
+
+/* -------------------------------------------------------------------------------------------------- */
+
+.work-cycle{
+    background-color: #F5F4F0;
+    padding: 100px 0px 0px;
+}
+
+.Shadow-header-work-cycle{
+    background-color: #E9E6DC;
+    width: 807px;
+    height: 80px;
+    position: relative;
+    right: 300px;
+    top: 1px;
+    margin: 0px 0 55px;
+}
+
+.header-work-cycle{
+    font-size: 65px;
+    color: #2B2B2B;
+    font-weight: 600;
+    line-height: 1em;
+    margin: 0;
+    position: relative;
+    left: 300px;
+    bottom: 25px;
+}
+
+.box-up-work-cycle{
+    border-radius: 5px;
+    background: #ffffff;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    text-align: center; 
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    padding: 0px 0px 40px;
+}
+
+.img-box-up-work-cycle-1{
+    background-image: url(media/icon-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 110px;
+    height: 110px;
+}
+
+.img-box-up-work-cycle-2{
+    background-image: url(media/icon-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 55px;
+    height: 27px;
+}
+
+.img-box-up-work-cycle-3{
+    background-image: url(media/icon-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 110px;
+    height: 110px;
+}
+
+.img-box-up-work-cycle-4{
+    background-image: url(media/icon-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 55px;
+    height: 70px;
+}
+
+.img-box-up-work-cycle-5{
+    background-image: url(media/icon-5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 110px;
+    height: 110px;
+}
+
+.p-up-work-cycle{
+    font-weight: 400;
+    position: relative;
+    top: 100px;
+    right: -1px;
+}
+
+.palka-box-up-work-cycle{
+    position: relative;
+    background: #3F6745;
+    height: 12px;
+    width: 2px;
+    top: 51px;
+    right: -54px;
+    border-radius: 1px;
+}
+
+
+.shadow-box-down-work-cycle{
+    background: #E9E6DC;
+    height: 331px;
+    width: 497px;
+    position: relative;
+    top: 55px;
+    left: 722px;
+    margin: 0px 0px 0px;
+}
+
+
+.button-work-cycle{
+    transition: background-color 0.2s linear;
+    box-shadow: 0 5px 15px #3f67458c;
+    color: white;
+    background: #3F6745;
+    width: 210px;
+    height: 55px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0px 0px 0px 363px;
+    position: relative;
+    bottom: 42px;
+}
+.button-work-cycle:hover{
+    background-color: #24ac38;
+    box-shadow: 0 5px 15px #24ac388a;
+}
+.img-Instagram{
+    background-image: url(media/Instagram.png);
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
+.box-down-work-cycle{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 31px;
+    right: 508px;
+    gap: 50px;
+}
+
+.img-box-down-work-cycle-1{
+    background-image: url(media/Download-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 270px;
+    height: 210px;
+    border-radius: 4px;
+}
+
+.img-box-down-work-cycle-2{
+    background-image: url(media/Download-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 270px;
+    height: 210px;
+    border-radius: 4px;
+}
+
+.img-box-down-work-cycle-3{
+    background-image: url(media/Download-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 270px;
+    height: 210px;
+    border-radius: 4px;
+}
+
+.box-p-down-work-cycle{
+    background-color: #ffffff;
+    width: 275px;
+    height: 50px;
+    position: relative;
+    top: 168px;
+    left: 20px;
+    border-radius: 5px;
+}
+
+.p-down-work-cycle{
+    position: relative;
+    top: 13px;
+    left: 25px;
+    color: #444444;
+}
+
+.palka-down-work-cycle{
+    position: absolute;
+    background: #3F6745;
+    height: 17px;
+    width: 2px;
+    top: 15px;
+    right: 259px;
+    border-radius: 1px;
+    z-index: 10;
+}
+
+.a-a{
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+/* --------------------------------------------------------------------- */
+
+.buy-Sealant{
+    background: #2A2A2A;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center; 
+    color: white;
+}
+
+.box-buy{
+    background-color: #212121;
+    width: 550px;
+    height: 303px;
+    position: relative;
+    bottom: 10px;
+    padding: 0px 0px 0px 50px;
+    border-radius: 3px;
+}
+
+.palka-box-buy{
+    position: absolute;
+    background: #3F6745;
+    top: 50px;
+    left: -11px;
+    width: 29px;
+    height: 2px;
+}
+
+.h1-box-buy{
+    font-size: 43px;
+    padding: 24px 0px 0px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.p-box-buy{
+    font-size: 13px;
+    line-height: 18px;
+    margin: 15px 0px 15px;
+}
+
+.number-box-buy{
+    font-size: 37px;
+    font-weight: 600;
+    margin: 24px 0px 0px 0px;
+}
+
+.button-box-buy{
+    position: absolute;
+    left: 294px;
+    top: 203px;
+    transition: background-color 0.2s linear;
+    color: white;
+    background: #3F6745;
+    width: 160px;
+    height: 50px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.button-box-buy:hover{
+    background-color: #24ac38;
+}
+
+.shadow-img-box-buy{
+    background-image: url(media/shadow-img-box-buy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 430px;
+    height: 170px;
+    position: absolute;
+    top: 176px;
+    left: 540px;
+}
+
+.img-box-buy{
+    background-image: url(media/box-buy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: -206px;
+}
+
+/* -------------------------------------------------------------------------------------------- */
+
+
+.Reviews{
+    background: #F5F4F0;
+    width: 100%;
+    height: 60vh;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.shadow-header-reviews{
+    background-color: #E9E6DC;
+    width: 807px;
+    height: 80px;
+    position: relative;
+    right: 300px;
+    top: 1px;
+    margin: 0px 0 55px;
+}
+
+.header-reviews{
+    font-size: 65px;
+    color: #2B2B2B;
+    font-weight: 600;
+    line-height: 1em;
+    margin: 0;
+    position: relative;
+    left: 300px;
+    bottom: 25px;
+}
+
+.Reviews-down{
+    box-sizing: border-box;
+    
+}
+
+.slider-container {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+  }
+  .slide {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+  }
+  .slide.active {
+    opacity: 1;
+  }
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: #3F6745;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .prev:hover,
+  .next:hover {
+    opacity: 0.7;
+  }
+  .prev {
+    left: -80px;
+    top: 141px;
+  }
+  .next {
+    right: -90px;
+    top: 142px;
+  }
+
+  .img-man1{
+    background-image: url(media/man1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 75px;
+    border-radius: 5px;
+  }
+
+  .img-man2{
+    background-image: url(media/man2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 75px;
+    border-radius: 5px;
+  }
+
+  .shadow-slide-1{
+    background: #F5F4F0;
+    position: relative;
+    right: 28px;
+    width: 300px;
+    height: 100px;
+    padding: 18px 0px 0px 26px;
+    border-radius: 5px;
+  }
+
+.box-img-calendar{
+    width: 16px;
+    height: 16px;
+    background-color: #E9E6DC;
+    position: absolute;
+    top: 57px;
+    right: 181px;
+    border-radius: 4px;
+}
+  
+  .img-calendar{
+    background-image: url(media/calendar.png);
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 2px;
+    right: 3px;
+  }
+
+  .slide-1{
+    background-color: #ffffff;
+    font-size: 15px;
+    padding: 22px 0px 0px 27px;
+    border-radius: 4px;
+    height: 241px;
+  }
+
+.slide-2{
+    position: relative;
+    top: -262px;
+    right: -516px;
+    font-size: 15px;
+    background-color: #ffffff;
+    font-size: 15px;
+    padding: 22px 0px 0px 27px;
+    border-radius: 4px;
+    height: 241px;
+}
+
+  .p-number-Reviews{
+    position: absolute;
+    top: 42px;
+    right: 109px;
+  }
+
+
+  .name-Reviews{
+    position: absolute;
+    top: 24px;
+    right: 87px;
+  }
+
+  .p-Reviews{
+    position: absolute;
+    right: 34px;
+    top: 175px;
+  }
+
+  .img-p-Reviews{
+    background-image: url(media/“.png);
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 29px;
+    position: relative;
+    top: 17px;
+  }
+
+/*  */
+
+
+
+/*как поставить div посередине*/
+
+
+
+
+

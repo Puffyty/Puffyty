@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Futura New';
+    src: local('Futura New Light Reg'), local('Futura-New-Light-Reg'),
+        url('FuturaNewLight-Reg.woff2') format('woff2'),
+        url('FuturaNewLight-Reg.woff') format('woff'),
+        url('FuturaNewLight-Reg.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
